@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>react跳转集合</title>
+</head>
+<body>
+  <section>
+    1.原生js中的方法
+    <!--window.location.href="target_page"-->
+    <a href="https://blog.csdn.net/cen_cs/article/details/77977385">
+      会重新加载css/js, 而且前一个页面的状态(store里面存的state就清空为默认状态了)就没了</a>
+  </section>
+  <section>
+    2.原生react项目中跳转
+      <!--<link to='/'>首页</Link>-->
+      <a href="https://blog.csdn.net/sinat_17775997/article/details/66967854">
+        react项目中为什么使用link代替a
+      </a>
+      只要你在组件最外层用了BrowserRouter 那每个组件内部就this.props.history.push 就可以了
+      <!--<Button onclick={() => this.props.history.push("/path")}>click me!</Button>-->
+
+      import createBrowserHistory from 'history/createBrowserHistory'
+      createBrowserHistory.push("/path")
+
+      import { Redirect } from 'react-router-dom'
+      <!--<Redirect to={{-->
+                <!--pathname: '/login',-->
+                <!--search: '?utm=your+face',-->
+                <!--state: { referrer: currentLocation }-->
+      <!--}}/>-->
+
+  </section>
+
+  <section>
+    3.redux中的方法
+    import { push, goBack } from 'react-router-redux'
+    <script>
+      const mapStateToProps = (state, ownProps) => {
+        return {}
+      }
+
+      const mapDispatchToProps = (dispatch, ownProps) => {
+        return {
+          navigateTo: location => {
+            dispatch(push(location))
+          },
+          goBack: () => {
+            dispatch(goBack())
+          }
+        }
+      }
+
+      export default connect(
+        mapStateToProps,
+        mapDispatchToProps
+      )(Form.create({})(LoginCode))
+    </script>
+  </section>
+
+  <section>
+    4.dva中的方法
+    import { routerRedux } from 'dva/router'
+    dispatch(routerRedux.push('/new/chart_edit'))
+  </section>
+
+</body>
+</html>

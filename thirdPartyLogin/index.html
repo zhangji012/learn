@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>第三方登录</title>
+</head>
+<body>
+  原理：第三方界面每隔一段时间会往后端发送请求看有没有通过APP登录，如果登录则跳转到对应的页面
+</body>
+
+<script>
+  const Bottom = props => {
+    return (
+      <div className={style.loginThred}>
+      <span>第三方登录：</span>
+      <a href="//sso.veryeast.cn/connect/link/wechat" target="_back" >
+      <img src={weixin} alt="weixin"/>
+      </a>
+      <a href="//sso.veryeast.cn/connect/link/qq" target="_back">
+      <img src={qq} alt="qq"/>
+      </a>
+      <a href="//sso.veryeast.cn/connect/link/weibo" target="_back">
+      <img src={weibo} alt="weibo"/>
+      </a>
+      </div>
+  );
+  };
+</script>
+</html>
