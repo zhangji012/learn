@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo</title>
+</head>
+<body>
+  <div class="sel"></div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+  var lists = [
+    {
+      rank: 'rank1',
+      company_name: 'company_name1',
+      total_score: '1111',
+      id: 1
+    },
+    {
+      rank: 'rank2',
+      company_name: 'company_name2',
+      total_score: '1111',
+      id: 2
+    },
+    {
+      rank: 'rank3',
+      company_name: 'company_name',
+      total_score: '1111',
+      id: 3
+    },
+  ];
+  var result
+  lists.forEach(function (item, index) {
+    result += '<div class="top">'
+      +'<div class="top'+item.rank+'">top'+item.rank+'</div>'
+      +'<div class="sketch">'
+      +'<div class="chart">'
+      +'</div>'
+      +'<div class="name">'
+      +'<p class="name-a">'+item.company_name+'</p>'
+      +'<p class="star">已收获<b>'+item.total_score+'</b>颗星星</p>'
+      +'</div>'
+      +'<div class="vote" onclick="gotoUrl(' + item.id + ')">投票</div>'
+      +'</div>'
+      +'</div>';    //html模板
+
+  });
+
+  $('.sel').append(result);
+  gotoUrl = function (id) {
+    var url = "http://gflt.veryeast.cn/activity/index/vote?activity_id=11&company_id="
+    url += id;
+    console.log(url);
+  }
+
+</script>
+</body>
+</html>

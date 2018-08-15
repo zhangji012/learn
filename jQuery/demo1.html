@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>input中文输入时会在输入完之后再执行代码</title>
+  <link rel="manifest" href="index.less"/>
+</head>
+<body>
+<input style="width: 100%;height: 30px;" class="search"/>
+<div class="drop_down_menu_new">
+  <ul></ul>
+</div>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+
+  $(function(){
+    var flag = true;
+    $('.search').on('compositionstart',function(){
+      flag = false;
+    });
+    $('.search').on('compositionend',function(){
+      flag = true;
+    });
+    $('.search').on('input',function(e){
+      setTimeout(function(){
+        if(flag){
+          console.log(e.delegateTarget.value);
+          var val = e.delegateTarget.value;
+          getAjax(val);
+        }
+      },0);
+    });
+    $(".search").focus(function(){
+      console.log('focus')
+    });
+    $(".search").blur(function(){
+      console.log('blur')
+    });
+    function getAjax(val) {
+      $.ajax({
+        url: url,
+        dataType: 'json',
+        method: 'GET',
+        success: function (data) {
+
+        },
+        error: function (xhr) {
+
+        }
+      });
+    }
+
+    var data = [
+      'fdafda',
+      '打发打发第三方的',
+      '冠福股份',
+      '发发',
+      '辅导费',
+      '刚刚',
+    ]
+    function searchRegion(data) {
+      var result = ''
+      data.forEach(function (item, index) {
+        console.log(item)
+        result += '<li class="box_li" onclick="searchLiClick(' + index + ')">'+item+'</li>'
+      })
+      $('.drop_down_menu_new ul').append(result)
+    }
+    searchRegion(data)
+    function searchLiClick() {
+      console.log('1111')
+    }
+
+  });
+
+
+
+</script>
+</body>
+</html>

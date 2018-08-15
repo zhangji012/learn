@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>scroll上拉加载</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    .main {
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .box {
+      height: 200px;
+      border: 1px solid #555555;
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+  <div class="box">111</div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+    var page = 1
+    var timers
+    $('.main').scroll(function () {
+      console.log('fdfd');
+      if (($(this)[0].scrollTop + $(this).height() + 60) >= $(this)[0].scrollHeight) {
+        clearTimeout(timers);
+        //这里还可以用 [ 延时执行 ] 来控制是否加载 （这样就解决了 当上页的条件满足时，一下子加载多次的问题啦）
+        timers = setTimeout(function () {
+          page++;
+          console.log("第" + page + "页");
+          // LoadingDataFn(); //调用执行上面的加载方法
+        }, 300);
+      }
+    })
+  });
+
+</script>
+</body>
+</html>
