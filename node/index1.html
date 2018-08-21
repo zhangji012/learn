@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>node</title>
+</head>
+<body>
+1.JavaScript 运行在服务器端的平台
+2.实时响应、超大规模数据要球下架构的可扩展性
+3.线程、异式I/O、事件驱动式的程序设计模型
+
+一. 文件和模块是一一对应的,一个Node.js文件就是一个模块
+二. Node.js提供了exports和require俩个对象，其中exports是模块公开的接口，require用于从外部获取一个模块的接口，即获取模块的exports对象
+    require 不会重复加载模块,无论调用多少次require,获得的模块都是同一个
+第三点 /创建包
+第四点 /包管理
+
+node利用闭包把全局变量变成了局部变量
+
+
+Node.js内置的fs模块就是文件系统模块，负责读写文件，fs模块同时提供了异步和同步的方法。
+
+由于Node环境执行的JavaScript代码是服务器端代码，所以，绝大部分需要在服务器运行期反复执行业务逻辑的代码，
+必须使用异步代码，否则，同步代码在执行时期，服务器将停止响应，因为JavaScript只有一个执行线程
+
+// 打开一个流:
+var rs = fs.createReadStream('sample.txt', 'utf-8');
+
+
+pipe 就像可以把两个水管串成一个更长的水管一样，两个流也可以串起来。一个Readable流和一个Writable流串起来
+var fs = require('fs');
+var rs = fs.createReadStream('sample.txt');
+var ws = fs.createWriteStream('copied.txt');
+rs.pipe(ws);
+
+
+HTTP协议
+  Node.js自带的http模块
+  调用request对象的属性和方法就可以拿到所有HTTP请求的信息
+  操作response对象的方法，就可以把HTTP响应返回给浏览器
+
+  var path = require('path');
+  // 解析当前目录:
+  var workDir = path.resolve('.'); // '/Users/michael'
+  // 组合完整的文件路径:当前目录+'pub'+'index.html':
+  var filePath = path.join(workDir, 'pub', 'index.html');
+
+crypto模块的目的是为了提供通用的加密和哈希算法
+MD5是一种常用的哈希算法，用于给任意数据一个“签名”。这个签名通常用一个十六进制的字符串表示
+const hash = crypto.createHash('md5');
+
+Hmac算法也是一种哈希算法，它可以利用MD5或SHA1等哈希算法。不同的是，Hmac还需要一个密钥：
+const hmac = crypto.createHmac('sha256', 'secret-key');
+
+
+
+
+
+
+</body>
+</html>

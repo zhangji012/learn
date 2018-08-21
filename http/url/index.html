@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>url 组成</title>
+</head>
+<body>
+Url {
+  protocol: 'http:',                        协议
+  slashes: true,                            是否有双斜线
+  auth: 'user:pass',
+  host: 'host.com:8080',                    ip或者域名
+  port: '8080',
+  hostname: 'host.com',                      主机名
+  hash: '#hash',
+  search: '?query=string',                    查询字符串参数
+  query: 'query=string',                      发送http的数据
+  pathname: '/path/to/file',
+  path: '/path/to/file?query=string',
+  href: 'http://user:pass@host.com:8080/path/to/file?query=string#hash'
+}
+</body>
+</html>

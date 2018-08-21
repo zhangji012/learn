@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dns</title>
+</head>
+<body>
+DNS（Domain Name Server，域名服务器）是进行域名(domain name)和与之相对应的IP地址 (IP address)转换的服务器
+域名解析
+  1.浏览器搜索自身的缓存（缓存时间1分钟），可以通过chrome://net-internals/#dns 查看
+  2.搜索操作系统自身的DNS缓存
+  3.读取本地的HOST文件
+  4.浏览器发起一个DNS的系统调用,运营商服务器查看本身缓存，如果没有运营商服务器发起一个迭代DNS解析的请求
+  5.TCP3次握手
+  6.TCP/IP连接建立起来后，浏览器就可以发送请求了
+  7.服务器接受请求后经过处理返回数据给浏览器，如果是网页则返回完整的html
+  8.解析和渲染时加载js、css等资源
+  9.浏览器根据拿到的资源对页面渲染，最终把一个完成的页面呈现给用户
+
+
+</body>
+</html>

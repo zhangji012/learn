@@ -6,6 +6,20 @@
 </head>
 <body>
 <!--process.env.NODE_ENV   ?????-->
+1.我们需要在js文件里，通过require的方式来引入css，我们来看具体的方法，首先需要安装css-loader，
+style-loader(安装style-loader的目的是为了在html中以style的方式嵌入css)
+2.使用autoprefixer自动补上浏览器兼容
+3.编译文件 file-loader
+4.编译图片 url-loader
+css-loader 是处理css文件中的url()等
+style-loader 将css插入到页面的style标签
+<a href="https://blog.csdn.net/meinanqihao/article/details/70197755">
+  less webpack简单介绍
+</a>
 
+5.resolve: 将相对路径转换为绝对路径
+
+6.不错的文章    https://baijiahao.baidu.com/s?id=1594980990343141965&wfr=spider&for=pc
+                    https://www.jianshu.com/p/dfc9a21740d0
 </body>
 </html>
