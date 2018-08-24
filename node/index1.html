@@ -9,6 +9,8 @@
 2.实时响应、超大规模数据要球下架构的可扩展性
 3.线程、异式I/O、事件驱动式的程序设计模型
 
+非阻塞、单线程、事件驱动
+
 一. 文件和模块是一一对应的,一个Node.js文件就是一个模块
 二. Node.js提供了exports和require俩个对象，其中exports是模块公开的接口，require用于从外部获取一个模块的接口，即获取模块的exports对象
     require 不会重复加载模块,无论调用多少次require,获得的模块都是同一个
@@ -53,9 +55,11 @@ Hmac算法也是一种哈希算法，它可以利用MD5或SHA1等哈希算法。
 const hmac = crypto.createHmac('sha256', 'secret-key');
 
 
+作用域：局部/全局
 
+上下文：主要代表this的执行，函数的内部对象
 
-
+call/apply 改变this指向
 
 </body>
 </html>

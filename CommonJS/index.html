@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CommonJS</title>
+</head>
+<body>
+require()用来引入外部模块
+exports对象用于导出当前模块的方法或变量，唯一的导出口
+module对象就代表模块本身
+
+浏览器不兼容CommonJS的根本原因，在于缺少四个Node.js环境的变量  require、exports、module、global
+
+<section>
+  Browserify的实现原理
+  <script>
+    var module = {
+      exports: {}
+    };
+
+    (function(module, exports) {
+      exports.multiply = function (n) { return n * 1000 };
+    }(module, module.exports))
+
+    var f = module.exports.multiply;
+    f(5) // 5000
+  </script>
+</section>
+</body>
+</html>
