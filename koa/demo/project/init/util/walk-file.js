@@ -7,8 +7,10 @@ const fs = require('fs')
  * @return {object}              返回遍历后的目录结果
  */
 const walkFile = function(  pathResolve , mime ){
+  // console.log('pathResolve', pathResolve)  E:/Test/learn/koa/demo/project/init/sql/
 
   let files = fs.readdirSync( pathResolve )
+  // console.log('files', files)    // 打印 files [ 'user_info.sql' ]
 
   let fileList = {}
 

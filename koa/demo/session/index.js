@@ -1,15 +1,15 @@
 const Koa = require('koa')
-const session = require('koa-session-minimal')
-const MysqlSession = require('koa-mysql-session')
+const session = require('koa-session-minimal') // 适用于koa2 的session中间件，提供存储介质的读写接口
+const MysqlSession = require('koa-mysql-session') // 为koa-session-minimal中间件提供MySQL数据库的session数据读写操作
 
 const app = new Koa()
-
+// todo 这边配置mysql错误
 // 配置存储session信息的mysql
 let store = new MysqlSession({
   user: 'root',
   password: 'abc123',
   database: 'koa_demo',
-  host: '127.0.0.1',
+  host: 'localhost',
 })
 
 // 存放sessionId的cookie配置

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--<div class="bshare-custom">-->
+  <!--<span>分享到 ：</span>-->
+  <!--<a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a>-->
+  <!--<a title="分享到QQ好友" class="bshare-qqim" href="javascript:void(0);"></a>-->
+  <!--<a title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a>-->
+  <!--<a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>-->
+<!--</div>-->
+<div class="box"></div>
+<div class="demo">
+  <span class="btn">click</span>
+</div>
+redirectAPI
+<script src="jquery-3.3.1.min.js"></script>
+<script src="http://static.bshare.cn/b/buttonLite.js"></script>
+<script src="http://static.bshare.cn/b/bshareC0.js"></script>
+<!--<script src="./share/buttonLite.js"></script>-->
+<!--<script src="./share/bshareC0.js"></script>-->
+<script>
+  $('.box').append(
+    '<div class="bshare-custom">' +
+      '<span>分享到 ：</span>' +
+      '<a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a>' +
+      '<a title="分享到QQ好友" class="bshare-qqim" href="javascript:void(0);"></a>' +
+      '<a title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a>' +
+      '<a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>' +
+    '</div>'
+  )
+</script>
+
+</body>
+</html>

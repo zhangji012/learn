@@ -81,7 +81,7 @@ function uploadEvent ( options ){
   input.onchange = function () {
     file = input.files[0]
     formData.append('files', file)
-
+    console.log(formData)
     requestEvent({
       formData,
       success: options.success,

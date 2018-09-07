@@ -26,8 +26,8 @@ app.use( async ( ctx ) => {
 
   // 获取静态资源内容，有可能是文件内容，目录，或404
   let _content = await content( ctx, fullStaticPath )
-  console.log(ctx)
-  console.log(_content)
+  // console.log(ctx)
+  // console.log(_content)
 
   // 解析请求内容的类型
   let _mime = parseMime( ctx.url )

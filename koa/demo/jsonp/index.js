@@ -22,13 +22,13 @@ app.use( async ( ctx ) => {
 
     // 用text/javascript，让请求支持跨域获取
     ctx.type = 'text/javascript'
-
+    console.log('jsonpStr', jsonpStr)
     // 输出jsonp字符串
     ctx.body = jsonpStr
 
   } else {
 
-    ctx.body = 'hello jsonp'
+    ctx.body = 'hello jsonp1'
 
   }
 })

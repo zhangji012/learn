@@ -11,16 +11,16 @@ const pool = mysql.createPool({
 
 
 let query = function( sql, values ) {
+  // console.log( sql ) 数据库中内容
+  // console.log( 'values', values ) undefined
 
   return new Promise(( resolve, reject ) => {
     pool.getConnection(function(err, connection) {
       if (err) {
-        console.log( err )
         resolve( err )
       } else {
         connection.query(sql, values, ( err, rows) => {
           if ( err ) {
-            console.log( err )
             reject( err )
           } else {
             resolve( rows )

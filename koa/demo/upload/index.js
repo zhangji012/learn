@@ -23,7 +23,7 @@ app.use( async ( ctx ) => {
     // 上传文件请求处理
     let result = { success: false }
     let serverFilePath = path.join( __dirname, 'upload-files' )
-
+    console.log(serverFilePath)
     // 上传文件事件
     result = await uploadFile( ctx, {
       fileType: 'album',

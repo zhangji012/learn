@@ -13,8 +13,9 @@ const SignUpForm = Form.create()(React.createClass({
       passwordDirty: false,
     }
   },
-
+  // todo 不明白为什么这边没有打印，还有后端应该只做接口部分，为什么还有页面，router
   async handleSubmit(e) {
+    console.log('sign-up')
     e.preventDefault()
     let values = await this.getFormValues()  
 

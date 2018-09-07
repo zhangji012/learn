@@ -90,6 +90,7 @@ const request = {
       return;
     }
     options.type = 'GET';
+    console.log(options);
     return fetchEvent( options );
   },
 

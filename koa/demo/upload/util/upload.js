@@ -9,10 +9,12 @@ const Busboy = require('busboy')
  * @return {boolean}        创建目录结果
  */
 function mkdirsSync( dirname ) {
+  // fs.existsSync 判断路径是否存在
   if (fs.existsSync( dirname )) {
     return true
   } else {
     if (mkdirsSync( path.dirname(dirname)) ) {
+      // fs.mkdirSync同步创建目录
       fs.mkdirSync( dirname )
       return true
     }

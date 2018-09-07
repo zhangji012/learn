@@ -9,7 +9,7 @@ const mimes = require('./mimes')
 function walk( reqPath ){
 
   let files = fs.readdirSync( reqPath );
-
+  // console.log(files); [ 'css', 'image', 'index.html', 'js' ]
   let dirList = [], fileList = [];
   for( let i=0, len=files.length; i<len; i++ ) {
     let item = files[i];
@@ -25,7 +25,7 @@ function walk( reqPath ){
 
 
   let result = dirList.concat( fileList );
-
+  // console.log(result); [ 'css', 'image', 'js', 'index.html' ]
   return result;
 };
 

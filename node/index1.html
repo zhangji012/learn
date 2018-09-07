@@ -61,5 +61,13 @@ const hmac = crypto.createHmac('sha256', 'secret-key');
 
 call/apply 改变this指向
 
+
+事件循环的运行机制大致分为以下步骤:
+　　1.检查事件队列（task queue）是否为空，如果为空，则继续检查；如不为空，则执行 2；
+　　2.取出事件队列的首部，压入执行栈（stack）；
+    3.执行任务；
+    4.检查执行栈，如果执行栈为空，则跳回第 1 步；如不为空，则继续检查；
+
+Buffer 类:专门存放二进制数据的缓存区
 </body>
 </html>

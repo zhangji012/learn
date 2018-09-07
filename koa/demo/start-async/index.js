@@ -3,6 +3,7 @@ const render = require('./util/render')
 const app = new Koa()
 
 app.use( async ( ctx ) => {
+  console.log(ctx)
   let html = await render('index.html')
   ctx.body = html
 })

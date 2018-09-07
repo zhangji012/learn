@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<button class="jsonp">jsonp</button>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+  $(function(){
+    $('.jsonp').click(function () {
+      console.log('fdfd')
+      // 发送jsonp请求
+      $.ajax({
+        type:"get",
+        url:'http://api.map.baidu.com/telematics/v3/weather?output=json&ak=0A5bc3c4fb543c8f9bc54b77bc155724',
+        data:{
+          location:"上海"
+        },
+        dataType:"jsonp",
+        success: function (data) {
+          console.log(data)
+          //渲染模版
+          let html = template('template',{list:data.results[0].weather_data})
+          $('tbody').html(html);
+
+        }
+      });
+    })
+  })
+
+</script>
+</body>
+</html>

@@ -21,6 +21,7 @@ const createAllTables = async () => {
   for( let key in sqlContentMap ) {
     let sqlShell = sqlContentMap[key]
     let sqlShellList = sqlShell.split(';')
+    // console.log('sqlShellList', sqlShellList.entries())  entries() 方法返回一个数组的迭代对象
 
     for ( let [ i, shell ] of sqlShellList.entries() ) {
       if ( shell.trim() ) {
