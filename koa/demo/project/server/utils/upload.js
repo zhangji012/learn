@@ -1,29 +1,33 @@
-const inspect = require('util').inspect
+const inspect = require('util').inspect // 检查
 const path = require('path')
+// os模块提供了一些基本的系统操作函数
 const os = require('os')
 const fs = require('fs')
+// 上传模块busboy
 const Busboy = require('busboy')
 const UtilType = require('./type')
 const UtilDatetime = require('./datetime')
 
-
+// 同步创建文件夹
 function mkdirsSync(dirname) {
   // console.log(dirname)
   if (fs.existsSync(dirname)) {
     return true
   } else {
+    // path.dirname当参数值为目录路径时，该方法返回该目录的上层目录；当参数值为文件路径时，该方法返回该文件所在的目录。
     if (mkdirsSync(path.dirname(dirname))) {
       fs.mkdirSync(dirname)
       return true
     }
   }
 }
-
+// 获取文件后缀名
 function getSuffixName( fileName ) {
   let nameList = fileName.split('.')
   return nameList[nameList.length - 1]
 }
 
+// 上传图片
 function uploadPicture( ctx, options) {
   let req = ctx.req
   let res = ctx.res
