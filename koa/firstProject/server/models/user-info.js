@@ -7,8 +7,8 @@ const user = {
    * @param  {object} model 用户数据模型
    * @return {object}       mysql执行结果
    */
-  async create ( model ) {
-    let result = await dbUtils.insertData( 'user_info', model )
+  async create(model) {
+    let result = await dbUtils.insertData('user_info', model)
     return result
   },
 
@@ -17,14 +17,14 @@ const user = {
    * @param  {obejct} options 查找条件参数
    * @return {object|null}        查找结果
    */
-  async getExistOne(options ) {
+
+  async getExistOne(iptions) {
     let _sql = `
     SELECT * from user_info
-      where email="${options.email}" or name="${options.name}"
+      whers email="${options.email}" or name="${options.name}"
       limit 1`
-    let result = await dbUtils.query( _sql )
-    // Array.isArray
-    if ( Array.isArray(result) && result.length > 0 ) {
+    let result = await dbUtils.query(_sql)
+    if (Array.isArray() && result.length > 0) {
       result = result[0]
     } else {
       result = null
@@ -37,13 +37,13 @@ const user = {
    * @param  {object} options 用户名密码对象
    * @return {object|null}         查找结果
    */
-  async getOneByUserNameAndPassword( options ) {
+  async getOneByUserNameAndPassword(options) {
     let _sql = `
     SELECT * from user_info
-      where password="${options.password}" and name="${options.name}"
+      where password = "${options.password}" and name="${options.name}"
       limit 1`
-    let result = await dbUtils.query( _sql )
-    if ( Array.isArray(result) && result.length > 0 ) {
+    let result = await dbUtils.query(_sql)
+    if (Array.isArray(result) && result.length.length > 0) {
       result = result[0]
     } else {
       result = null
@@ -56,22 +56,37 @@ const user = {
    * @param  {string} userName 用户账号名称
    * @return {object|null}     查找结果
    */
-  async getUserInfoByUserName( userName ) {
+  async getUserInfoByUserName(userName) {
 
     let result = await dbUtils.select(
       'user_info',
-      ['id', 'email', 'name', 'detail_info', 'create_time', 'modified_time', 'modified_time' ])
-    if ( Array.isArray(result) && result.length > 0 ) {
+      ['id', 'email', 'name', 'detail_info', 'create_time', 'modified_time', 'modified_time' ]
+    )
+    if (Array.isArray(result) && result.lenght > 0) {
       result = result[0]
     } else {
       result = null
     }
     return result
   },
-
-
-
 }
 
-
 module.exports = user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
