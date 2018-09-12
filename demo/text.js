@@ -9,22 +9,22 @@
 (function ($) {
   var login = {
     parameter: null,
+
     init: function () {
       this.parameter = {};
       this.loginInit();
       this.initSso();
       this.operate();
-      this.postLogin();
     },
 
     //数据
     loginInit: function () {
       this.parameter.autologin = 1;
       this.parameter['welcome'] = '<span class="top-item js-register-btn"><i' +
-        ' class="top-register-icon"></i>最新消息</span><i class="splitline"></i><div class="top-item"><a href="//i.veryeast.cn/user/register"' + ' rel="nofollow" target="_blank">免费注册</a></div><i' +
-        ' class="splitline"></i><a   rel="nofollow" class="top-item" href="//i.veryeast.cn/user/login?redirect=' + decodeURIComponent(location.href) + '">用户登录</a>';
-      this.parameter['quit'] = '<span class="top-item top-logged"><span>您好，<a class="user-name" href="//vip.veryeast.cn/">企业</a>，欢迎来到最佳东方！</span><a class="user-page" href="//vip.veryeast.cn/">进入招聘通</a><a class="login-logout">[退出]</a></span>';
-      this.parameter['quit2'] = '<span class="top-item top-logged"><span>您好，<a class="user-name" href="//my.veryeast.cn/user/home/">个人</a>，欢迎来到最佳东方！</span><a class="user-page" href="//my.veryeast.cn/user/home/">进入我的最佳东方</a><a class="login-logout">[退出]</a></span>';
+        ' class="top-register-icon"></i>最新消息</span><i class="splitline"></i><div class="top-item"><a href="http://i.veryeast.cn/user/register"' + ' rel="nofollow" target="_blank">免费注册</a></div><i' +
+        ' class="splitline"></i><a   rel="nofollow" class="top-item" href="http://i.veryeast.cn/user/login?redirect=' + decodeURIComponent(location.href) + '">用户登录</a>';
+      this.parameter['quit'] = '<span class="top-item top-logged"><span>您好，<a class="user-name" href="http://vip.veryeast.cn/">企业</a>，欢迎来到最佳东方！</span><a class="user-page" href="http://vip.veryeast.cn/">进入招聘通</a><a class="login-logout">[退出]</a></span>';
+      this.parameter['quit2'] = '<span class="top-item top-logged"><span>您好，<a class="user-name" href="http://my.veryeast.cn/user/home/">个人</a>，欢迎来到最佳东方！</span><a class="user-page" href="http://my.veryeast.cn/user/home/">进入我的最佳东方</a><a class="login-logout">[退出]</a></span>';
       this.username = null;
     },
 
@@ -68,11 +68,8 @@
     loginEnter: function (data) {
       var me = this,
         name, type;
-      sso = new SSO_Controller()
+
       if (data && (me.parameter.username = name = data.username)) {
-        if(!sso.getCookie('register_bar_true')){
-          document.cookie = 'register_bar_true=3600;max-age=' + (60 * 60 * 24 * 3650) + ';expires=' + new Date(Date.now() + (1000 * 60 * 60 * 24)).toUTCString();
-        }
         type = data.user_type;
         if (1 == type) {
           $('.js-top-login').html(me.parameter.quit);
@@ -89,7 +86,6 @@
       } else {
         $('.js-top-login').html(me.parameter.welcome);
       }
-
     },
 
     //操作
@@ -100,23 +96,6 @@
         me.sso.logout('script');
         me.initSso();
       });
-    },
-    // 企业/职位详情页底部弹框
-    postLogin:function(){
-      var me = this
-      sso = new SSO_Controller()
-      var registerColse = $('.register-colse').length
-      if(registerColse > 0 ){
-        $('.register-colse').click(function(){
-          $('.mask_box_login').hide()
-        })
-        var isLogin = sso.getCookie('register_bar_true')
-        if(isLogin){
-          $('.mask_box_login').hide()
-        }else {
-          $('.mask_box_login').show()
-        }
-      }
     },
   };
 

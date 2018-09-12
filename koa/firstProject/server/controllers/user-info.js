@@ -52,7 +52,7 @@ module.exports = {
       seccess: false,
       message: '',
       data: null,
-    }
+    },
 
     let validateResult = userInfoService.validatorSignUp(formData)
 
@@ -64,12 +64,84 @@ module.exports = {
 
     let existOne = await userInfoService.validatorSignUp( formData )
 
+    if (existOne) {
+      if (existOne.name ===  formData.userName ) {
+        result.message = userCode.FAIL_EMAIL_IS_EXIST
+        ctx.body = result
+        return
+      }
+      if (existOne.email === formData.email) {
+        result.message = userCode.FAIL_EMAIL_IS_EXIST
+        ctx.body = result
+        return
+      }
+    }
 
+    let userResult = await userInfoService.create({
+      email: formData.email,
+      password: formData.password,
+      name: formData.userName,
+      create_time: new Date().getTime(),
+      level: 1,
+    })
 
-  }
+    if (userResult && userResult.insertId * 1 > 0) {
+      result.seccess = true
+    } else {
+      result.message = userCode.ERROR_SYS
+    }
 
+    ctx.body = result
+  },
 
+  /**
+   * 获取用户信息
+   * @param    {obejct} ctx 上下文对象
+   */
+  async getLoginUserInfo(ctx) {
+    let session = ctx.session
+    let isLogin = session.isLogin
+    let userName = session.userName
 
+    let result = {
+      success: false,
+      message: '',
+      data: null,
+    }
+    if (isLogin === true && userName) {
+      let userInfo = await userInfoService.getUserInfoByUserName(userName)
+      if (userInfo) {
+        result.data = userInfo
+        result.success = true
+      } else {
+        result.message = userCode.FAIL_USER_NO_LOGIN
+      }
+    } else {
+
+    }
+
+    ctx.body = result
+  },
+
+  /**
+   * 校验用户是否登录
+   * @param  {obejct} ctx 上下文对象
+   */
+  validateLogin(ctx) {
+    let result = {
+      success: false,
+      message: userCode.FAIL_USER_NO_LOGIN,
+      data: null,
+      code: 'FAIL_USER_NO_LOGIN',
+    }
+    let session = ctx.session
+    if (session && session.isLogin === true) {
+      result.success = true
+      result.message = ''
+      result.code = ''
+    }
+    return result
+  },
 }
 
 

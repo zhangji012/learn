@@ -66,12 +66,12 @@ module.exports = {
     console.log( existOne )
 
     if ( existOne  ) {
-      if ( existOne .name === formData.userName ) {
+      if ( existOne.name === formData.userName ) {
         result.message = userCode.FAIL_USER_NAME_IS_EXIST
         ctx.body = result
         return
       }
-      if ( existOne .email === formData.email ) {
+      if ( existOne.email === formData.email ) {
         result.message = userCode.FAIL_EMAIL_IS_EXIST
         ctx.body = result
         return

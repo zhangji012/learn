@@ -1,11 +1,10 @@
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const path = require('path');
-const sourcePath = path.join(__dirname, './static/src');
-const outputPath = path.join(__dirname, './../output/dist/');
+const webpack = require('webpack')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const path = require('path')
+const sourcePath = path.join(__dirname, './static/src')
+const outputPath = path.join(__dirname, './../output/dist/')
 
 module.exports = {
-  
   entry: {
     'admin' : './static/src/pages/admin.js',
     'work' : './static/src/pages/work.js',
@@ -13,23 +12,22 @@ module.exports = {
     'error' : './static/src/pages/error.js',
     vendor: ['react', 'react-dom', 'whatwg-fetch'], // vendor的意思是依赖的第三方库，不会经常变更的
   },
+
   output: {
     path: outputPath,
     publicPath: '/static/output/dist/',
-    filename: 'js/[name].js',
+    filename: 'js/[name].js'
   },
   module: {
 
-    rules: [
+    reles: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: [
           {
             loader: 'babel-loader',
-            // query和options都是当前loader需要的特殊配置（可选）。webpack2.5之前为query，之后为options
             query: {
-              // presets: ['es2015', 'react'],  //按照最新的ES6语法规则去转换
               cacheDirectory: true
             }
           }
@@ -57,20 +55,5 @@ module.exports = {
         })
       },
     ]
-  },
-  resolve: {
-    extensions: ['.js', '.jsx'], // 自动解析确定的扩展
-    modules: [  // 告诉 webpack 解析模块时应该搜索的目录
-      sourcePath,
-      'node_modules'
-    ]
-  },
-  plugins: [
-    new ExtractTextPlugin('css/[name].css'),
-    new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor'],
-      minChunks: Infinity,
-      filename: 'js/[name].js'
-    }),
-  ]
-};
+  }
+}
