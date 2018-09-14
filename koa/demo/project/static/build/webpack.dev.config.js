@@ -4,7 +4,7 @@ var baseWebpackConfig = require('./webpack.base.config');
 
 module.exports = merge(baseWebpackConfig, {
 
-  devtool: 'source-map',
+  devtool: 'source-map',  // devtools可以实现页面热部署
   plugins: [
     
     new webpack.DefinePlugin({

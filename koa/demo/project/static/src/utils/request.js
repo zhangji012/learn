@@ -10,7 +10,7 @@ function fetchEvent( options ) {
   let _success;
   let _error;
   let fetchParams = {
-    credentials: 'include',
+    credentials: 'include', // 不论是不是跨域的请求,总是发送请求资源域在本地的 cookies、 HTTP Basic authentication 等验证信息
   };
   if ( _type === 'GET' ) {
     let urlParams = [];
@@ -39,7 +39,7 @@ function fetchEvent( options ) {
     fetchParams = {
       credentials: 'include',
       method: _type,
-      headers: {'Content-Type': 'application/json'},
+      headers: {'Content-Type': 'application/json'}, // 数据被编码为名称/值对。这是标准的编码格式
       body: JSON.stringify(_data)
     }
     fetchParams = {

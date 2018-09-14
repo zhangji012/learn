@@ -55,5 +55,20 @@ module.exports = {
         })
       },
     ]
-  }
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+    modules: [
+      sourcePath,
+      'node_modules'
+    ]
+  },
+  plugins: [
+    new ExtractTextPlugin('css/[name].css'),
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ['vendor'],
+      minChunks: Infinity,
+      filename: 'js/[name].js'
+    }),
+  ]
 }

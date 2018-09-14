@@ -67,6 +67,8 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('css/[name].css'),
+    // minChunks可以设置为数字、函数和Infinity
+    // Infinity：只有当入口文件（entry chunks） >= 3 才生效，用来在第三方库中分离自定义的公共模块
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor'],
       minChunks: Infinity,
