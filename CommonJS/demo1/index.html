@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js模块化编程之彻底弄懂CommonJS和AMD/CMD！</title>
+</head>
+<body>
+js官方定义的API只能构建基于浏览器的应用程序
+CommonJS API定义很多普通应用程序（主要指非浏览器的应用）使用的API，从而填补了这个空白。它的终极目标是提供一个类似Python，Ruby和Java标准库
+NodeJS是CommonJS规范的实现，webpack 也是以CommonJS的形式来书写。
+
+CommonJS定义的模块分为:{模块引用(require)} {模块定义(exports)} {模块标识(module)}
+  require()用来引入外部模块
+  exports对象用于导出当前模块的方法或变量，唯一的导出口
+  module对象就代表模块本身。
+CommonJS是主要为了JS在后端的表现制定的，基本是同步操作，而前端很多请求时间比较长，他是不适合前端的
+
+AMD、CMD是为了浏览器端模块化而设计的，代表require.js、sea.js
+<a href="https://www.cnblogs.com/chenguangliang/p/5856701.html">不错的介绍</a>
+</body>
+</html>

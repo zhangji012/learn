@@ -8,9 +8,8 @@ const FormItem = Form.Item;
 const SignInForm = Form.create()(React.createClass({
   
   async handleSubmit(e) {
-    console.log('singin')
-
     e.preventDefault()
+    console.log('singin111')
     let values = await this.getFormValues()
     if ( values ) {
       let result = await signInApi( values )

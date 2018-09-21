@@ -1,5 +1,6 @@
 const path = require('path')
 const Koa = require('koa')
+// import Koa from 'koa'
 // generator 中间件在koa v2中需要用koa-convert封装一下才能使用
 const convert = require('koa-convert')
 const views = require('koa-views')

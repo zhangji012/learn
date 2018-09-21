@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>深入理解模块原理</title>
+</head>
+<body>
+
+<section>
+  利用闭包把所有“全局”变量就变成了函数内部的局部变量
+    闭包：函数套函数，里层函数可以调用外层函数的变量
+    好处：内存驻留
+    坏处：内存泄漏
+
+  <script>
+    // hello.js代码是这样的：
+    var s = 'Hello';
+    var name = 'world';
+
+    console.log(s + ' ' + name + '!');
+  </script>
+
+  <script>
+    // Node.js加载了hello.js后，它可以把代码包装一下，变成这样执行
+    (function () {
+      // 读取的hello.js代码:
+      var s = 'Hello';
+      var name = 'world';
+
+      console.log(s + ' ' + name + '!');
+      // hello.js代码结束
+    })()
+  </script>
+
+  <script>
+    // 模块的输出module.exports怎么实现？
+    // 准备module对象:
+    var module = {
+      id: 'hello',
+      exports: {}
+    };
+    var load = function (module) {
+      // 读取的hello.js代码:
+      function greet(name) {
+        console.log('Hello, ' + name + '!');
+      }
+
+      module.exports = greet;
+      // hello.js代码结束
+      return module.exports;
+    };
+    var exported = load(module);
+    // 保存module:
+    save(module, exported);
+  </script>
+</section>
+</body>
+</html>

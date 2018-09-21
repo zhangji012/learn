@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>module.exports 和 exports的区别</title>
+</head>
+<body>
+
+系统自动给nodejs 文件增加2个变量 exports 和 module, module 又有一个属性 exports, 这个exports 属性指向一个空对象 {}; 同时 exports这个变量也指向了这个空对象{};
+
+于是就有了 exports => {} <= module.exports.
+
+这2个exports 其实是没有直接关系的,唯一的关系是: 他们初始都指向同一个空对象{};
+如果其中一个不指向做个空对象了, 那么他们的关系就没有了
+
+
+区别：
+  1.module.exports 初始值为一个空对象 {}
+  2.exports 是指向的 module.exports 的引用
+  3.require() 返回的是 module.exports 而不是 exports
+
+<a href="https://cnodejs.org/topic/5231a630101e574521e45ef8">不错的介绍</a>
+<a href="https://cnodejs.org/topic/52308842101e574521c16e06">不错的介绍</a>
+
+我们经常看到这样的写法：  exports = module.exports = somethings
+上面的代码等价于:
+  module.exports = somethings
+  exports = module.exports
+
+结论：
+  如果要输出一个函数或数组，必须直接对module.exports对象赋值
+<script>
+
+</script>
+</body>
+</html>
