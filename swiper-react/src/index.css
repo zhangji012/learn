@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.wrapper, h1, ul, li {
+  width: 100%;
+}
+.wrapper h1 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+ul {
+  text-align: left;
+  font-size: 24px;
+}
