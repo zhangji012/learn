@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>async</title>
+</head>
+<body>
+Generator 函数是一个状态机，封装了多个内部状态
+由于 Generator 函数返回的遍历器对象，只有调用next方法才会遍历下一个内部状态，所以其实提供了一种可以暂停执行的函数。yield表达式就是暂停标志
+
+async告诉系统这是个Generator函数，会遍历函数返回遍历的对象，为每一个对象添加一个next方法，当函数执行时只有当上一个对象执行完成，next才会指向下一个函数
+
+同步方式，异步编程
+
+回调函数、事件监听(on，bind，listen，addEventListener，observe)、发布/订阅(观察者模式) 、Promise 对象、优雅的async/await
+
+<a href="https://www.jianshu.com/p/29da9aef4c1c">原文</a>
+<script>
+  var myfunc = function() {
+    setTimeout(function() {
+      console.log("log1");
+      setTimeout(function() {
+        console.log("log2");
+        setTimeout(function() {
+          console.log("log3");
+        }, 4000);
+      }, 3000);
+    }, 2000);
+  }
+  // myfunc()
+</script>
+
+<script>
+  // 当从setTimeout来看，第二种写法没有什么不妥，但是实际的应用场影是http请求，http请求，
+  // 谁先谁后返回结果是不确定的，如果再用第二种方式，就不能控制好先后顺序，
+  // 比如我就想让a先执后，再执行b,最后执行c， a,b,c都是网络请求。这时候就需要Promise
+  var func1 = function() {
+    setTimeout(func2, 2000);
+  };
+
+  var func2 = function() {
+    console.log("log1");
+    setTimeout(func3, 3000);
+  };
+
+  var func3 = function() {
+    console.log("log2");
+    setTimeout(func4, 4000);
+  };
+
+  var func4 = function() {
+    console.log("log3");
+  };
+
+  // func1()
+</script>
+
+<script>
+  function timeout1() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout1");
+      setTimeout(function () {
+        res('我是res')
+      }, 2000);
+    });
+  }
+
+  function timeout2(res, rej) {
+    console.log('res',res)
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout2");
+      setTimeout(res, 3000);
+    });
+  }
+
+  function timeout3() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout3");
+      setTimeout(res, 4000);
+    });
+  }
+
+  function timeout4() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout4");
+      setTimeout(res, 5000);
+    });
+  }
+
+  // timeout1()
+  //   .then(timeout2)
+  //   .then(timeout3)
+  //   .then(timeout4)
+  //   .then(function() {
+  //     console.log(Date.now() + " timout4 callback");
+  //   });
+</script>
+
+<script>
+  function timeout1() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout1");
+      setTimeout(function () {
+        res('我是res')
+      }, 3000);
+    });
+  }
+
+  function timeout2(res, rej) {
+    console.log(res)
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout2");
+      setTimeout(res, 3000);
+    });
+  }
+
+  function timeout3() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout3");
+      setTimeout(res, 4000);
+    });
+  }
+
+  function timeout4() {
+    return new Promise(function(res, rej) {
+      console.log(Date.now() + " start timeout4");
+      setTimeout(res, 5000);
+    });
+  }
+
+  async function fun() {
+    // 正常情况下，await命令后面是一个 Promise 对象。如果不是，会被转成一个立即resolve的 Promise 对象
+    let res = await timeout1()
+    await timeout2(res)
+    await timeout3()
+    await timeout4()
+  }
+  fun()
+</script>
+</body>
+</html>

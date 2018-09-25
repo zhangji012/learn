@@ -1,0 +1,22 @@
+/* stylelint-disable */
+
+.charts{
+  height: 650px!important;
+}
+
+.form {
+  margin-bottom: 15px;
+  > label {
+    margin-right: 10px;
+  }
+  > button {
+    margin-left: 20px;
+  }
+}
+
+:global(.hideElm) {
+  display: none;
+}
+:global(.anticon-caret-up),:global(.anticon-caret-down) {
+  font-size: 20px!important;
+}

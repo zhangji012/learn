@@ -1,4 +1,3 @@
-// TODO mysql 启动问题
 const fs = require('fs');
 const getSqlContentMap = require('./util/get-sql-content-map');
 const { query } = require('./util/db');

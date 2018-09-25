@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.quick-search {
+  color: red;
+  button {
+    margin-left: 10px;
+  }
+}
