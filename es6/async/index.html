@@ -52,7 +52,7 @@ async告诉系统这是个Generator函数，会遍历函数返回遍历的对象
     console.log("log3");
   };
 
-  // func1()
+  func1()
 </script>
 
 <script>
@@ -87,13 +87,13 @@ async告诉系统这是个Generator函数，会遍历函数返回遍历的对象
     });
   }
 
-  // timeout1()
-  //   .then(timeout2)
-  //   .then(timeout3)
-  //   .then(timeout4)
-  //   .then(function() {
-  //     console.log(Date.now() + " timout4 callback");
-  //   });
+  timeout1()
+    .then(timeout2)
+    .then(timeout3)
+    .then(timeout4)
+    .then(function() {
+      console.log(Date.now() + " timout4 callback");
+    });
 </script>
 
 <script>

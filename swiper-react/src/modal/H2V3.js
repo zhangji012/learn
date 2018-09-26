@@ -11,10 +11,9 @@ export default class Content extends Component {
               <h3>如何实现模块加载</h3>
               <ul>
                 <li>
-                  <section>
-                    利用闭包把所有“全局”变量就变成了函数内部的局部变量
-                    <img src={moduler} />
-                  </section>
+                  <span>利用闭包把所有“全局”变量就变成了函数内部的局部变量</span>
+                  <br></br>
+                  <img src={moduler} />
                 </li>
               </ul>
             </li>
