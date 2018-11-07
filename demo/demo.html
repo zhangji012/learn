@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>demo</title>
+  <style>
+    .save {
+      display: inline-block;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="sel">的地方地方</div>
+<button id="TencentCaptcha"
+        data-appid="2096087700"
+        data-cbfn="callback"
+>验证</button>
+
   <script src="./jquery-3.3.1.min.js"></script>
+  <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
 <script>
-  $('.sel').click(function () {
-    alert('fd')
-    window.open("https://m.veryeast.cn/mobile/index.html?c=mobile")
-    // window.location.href = "https://m.veryeast.cn/mobile/index.html?c=mobile"
-  })
+  var captcha1 = new TencentCaptcha('2096087700', function(res) {/* callback */});
+  captcha1.show(); // 显示验证码
 </script>
 </body>
 </html>

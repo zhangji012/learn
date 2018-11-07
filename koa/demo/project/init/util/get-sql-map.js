@@ -17,7 +17,7 @@ function getSqlMap () {
   // console.log(basePath)  /Test/learn/koa/demo/project/init/sql/
 
   let fileList = walkFile( basePath, 'sql' )
-  // console.log(fileList) { 'user_info.sql': 'E:/Test/learn/koa/demo/project/init/sql/user_info.sql' }
+  // console.log(fileList) // { 'user_info.sql': 'E:/Test/learn/koa/demo/project/init/sql/user_info.sql' }
 
   return fileList
 }

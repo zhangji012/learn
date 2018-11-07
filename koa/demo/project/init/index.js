@@ -26,6 +26,7 @@ const createAllTables = async () => {
     for ( let [ i, shell ] of sqlShellList.entries() ) {
       if ( shell.trim() ) {
         let result = await query( shell )
+        console.log(result)
         if ( result.serverStatus * 1 === 2 ) {
           eventLog( null,  key, i)
         } else {

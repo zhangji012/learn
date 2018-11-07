@@ -23,7 +23,7 @@ function getSqlContentMap () {
   for( let key in sqlMap ) {
     getSqlContent( key, sqlMap[key] )
   }
-
+  // console.log(sqlContentMap)
   return sqlContentMap
 }
 
