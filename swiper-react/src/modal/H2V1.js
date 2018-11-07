@@ -6,11 +6,10 @@ export default class Content extends Component {
       <div className='swiper-slide'>
         <div className='wrapper'>
           <ul>
-            <li>koa2是什么</li>
-            <li>为什么选koa2</li>
-            <li>async/await</li>
-            <li>和react结合使用</li>
-            <li>目前的问题，没有找到好的node前后分离的项目</li>
+            <li>NodeJS是CommonJS规范的实现</li>
+            <li>是什么</li>
+            <li>如何实现模块加载</li>
+            <li>module.exports 和 exports的区别</li>
           </ul>
         </div>
       </div>

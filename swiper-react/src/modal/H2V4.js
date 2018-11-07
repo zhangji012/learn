@@ -9,7 +9,7 @@ export default class Content extends Component {
           <ul>
             <li>
               <h3>module.exports 和 exports的区别</h3>
-              <a href='https://cnodejs.org/topic/5231a630101e574521e45ef8'>介绍</a>
+              <a href='https://cnodejs.org/topic/5231a630101e574521e45ef8' target='_blank'>介绍</a>
               <img src={moduler2} />
             </li>
           </ul>

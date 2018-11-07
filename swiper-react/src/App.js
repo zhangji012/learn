@@ -10,11 +10,10 @@ import H2V1 from './modal/H2V1'
 import H2V2 from './modal/H2V2'
 import H2V3 from './modal/H2V3'
 import H2V4 from './modal/H2V4'
-import H3V1 from './modal/H3V1'
-import H4V1 from './modal/H4V1'
-import H4V2 from './modal/H4V2'
+import H3V1 from './modal/H4V1'
+import H3V2 from './modal/H4V2'
+import H4V1 from './modal/H3V1'
 import H5V1 from './modal/H5V1'
-// import HSlide3 from './modal/HSlide3'
 
 class App extends Component {
   componentDidMount() {
@@ -103,21 +102,21 @@ class App extends Component {
           </div>
 
           <div className='swiper-slide'>
-            <div className='swiper-container swiper-container-v' ref={self => this.swiperV3 = self}>
+            <div className='swiper-container swiper-container-v' ref={self => this.swiperV4 = self}>
               <div className='swiper-wrapper'>
-                <H3V1/>
+                <H4V1/>
               </div>
-              <div className='swiper-pagination swiper-pagination-v'  ref={self => this.paginateIDV3 = self}></div>
+              <div className='swiper-pagination swiper-pagination-v'  ref={self => this.paginateIDV4 = self}></div>
             </div>
           </div>
 
           <div className='swiper-slide'>
-            <div className='swiper-container swiper-container-v' ref={self => this.swiperV4 = self}>
+            <div className='swiper-container swiper-container-v' ref={self => this.swiperV3 = self}>
               <div className='swiper-wrapper'>
-                <H4V1/>
-                <H4V2/>
+                <H3V1/>
+                <H3V2/>
               </div>
-              <div className='swiper-pagination swiper-pagination-v'  ref={self => this.paginateIDV4 = self}></div>
+              <div className='swiper-pagination swiper-pagination-v'  ref={self => this.paginateIDV3 = self}></div>
             </div>
           </div>
 
