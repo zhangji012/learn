@@ -34,7 +34,7 @@ module.exports = {
     new webpack.DllPlugin({
       name: '_dll_[name]',
       path: resolve('dist/manifest.json'),
-      context: path.resolve(__dirname, '../')
+      context: path.resolve(__dirname, '../') // context 是 webpack 编译时的基础目录
     })
   ]
 }
