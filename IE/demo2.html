@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo</title>
+  <style>
+
+  </style>
+</head>
+<body>
+<div id="qrRefresh" style="display: block;">
+  <p>重新刷新二维码</p>
+  <a href="javascript:;" id="cReFun">点击刷新</a>
+</div>
+<!--<script src="jquery-3.3.1.min.js"></script>-->
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  function getcode(chnnel) {
+    $.ajaxSetup({
+      xhr: function() {
+        try{
+          if(window.ActiveXObject)
+            return new window.ActiveXObject("Microsoft.XMLHTTP");
+        } catch(e) { }
+
+        return new window.XMLHttpRequest();
+      }
+    });
+    console.log('11111111111',$.fn.jquery)
+
+    $.ajax({
+      url: 'https://interface-vip.veryeast.cn/client/util/scan-bar',
+      dataType: 'json',
+      type: 'POST',
+      cache: false,
+      crossDomain: true == !(document.all),
+      async: true,
+      data: {"login_code": chnnel },
+      success: function (data) {
+        console.log(22)
+        if (data && data.status == 1) {
+          //$('.qrCode').html(`<img src=${data.data.login_url} alt="">`)
+          $('.qrCode').html('<img src="'+data.data.login_url+'" alt="二维码">')
+          $("#qrRefresh").css("display","none")
+          $(".qrRefresh-bg").css("display","none")
+          this.chnnel = data.data.login_code
+          goEasy('AppJobSeek' + this.chnnel)
+        }
+      }
+    });
+  }
+  getcode()
+</script>
+</body>
+</html>
