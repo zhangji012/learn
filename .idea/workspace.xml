@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31880270-0133-4ae0-81d6-249b49ecfc4c" name="Default" comment="ie">
+      <change afterPath="$PROJECT_DIR$/IE/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IE/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/判断IE版本前端方法/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/IE/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="learn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IE/demo2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/demo1.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userCode</find>
+      <find>.js</find>
+      <find>.js,</find>
+      <find>'/</find>
+      <find>,'</find>
+      <find>'static/,</find>
+      <find>127.0.0.1</find>
+      <find>用户不存在</find>
+      <find>user-text</find>
+      <find>indexPage</find>
+      <find>bsStatic.js</find>
+      <find>jsBasePath</find>
+      <find>bshareS887</find>
+      <find>bsPlatforms</find>
+      <find>loadScript</find>
+      <find>background-opaque-dark</find>
+      <find>gif</find>
+      <find>BSHARE_SHOST_NAME</find>
+      <find>top_logos_sprite</find>
+      <find>bshare_click</find>
+      <find>replace</find>
+      <find>validator</find>
+      <find>existOne</find>
+      <find>v</find>
+      <find>ExtractTextPlugin</find>
+      <find>re</find>
+      <find>process.env</find>
+      <find>request</find>
+      <find>fs</find>
+      <find>sessionMysqlConfig</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>29.70</replace>
+      <replace>let</replace>
+      <replace>.js,</replace>
+      <replace>.js,'</replace>
+      <replace>'</replace>
+      <replace>',</replace>
+      <replace>10.10.29.12</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/components/footer-common.jsx" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/components/form-group.jsx" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/components/header-nav.jsx" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/components/sign-in-form.jsx" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/components/sign-up-form.jsx" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/pages/admin.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/pages/error.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/pages/work.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/texts/user-text.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/texts/common.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/utils/tool.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/utils/upload.js" />
+        <option value="$PROJECT_DIR$/demo/text.js" />
+        <option value="$PROJECT_DIR$/demo/upIMG/text.js" />
+        <option value="$PROJECT_DIR$/demo/upIMG/test.css" />
+        <option value="$PROJECT_DIR$/demo/demo1.html" />
+        <option value="$PROJECT_DIR$/koa/demo/project/static/build/webpack.base.config.js" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/src/common.js" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/src/third.js" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/src/second.js" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/src/first.js" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/package.json" />
+        <option value="$PROJECT_DIR$/webpack/demo/CommonsChunkPlugin/webpack.config.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/build/webpack.base.config.js" />
+        <option value="$PROJECT_DIR$/koa/demo/project/static/build/webpack.dev.config.js" />
+        <option value="$PROJECT_DIR$/demo/baiduShare/index.html" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/build/webpack.dev.config.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/build/webpack.prod.config.js" />
+        <option value="$PROJECT_DIR$/koa/demo/project/static/build/webpack.prod.config.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/utils/datetime.js" />
+        <option value="$PROJECT_DIR$/koa/demo/project/static/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/koa/firstProject/static/src/utils/request.js" />
+        <option value="$PROJECT_DIR$/swiper-react/src/App.css" />
+        <option value="$PROJECT_DIR$/redux/index.html" />
+        <option value="$PROJECT_DIR$/CommonJS/index.html" />
+        <option value="$PROJECT_DIR$/CommonJS/demo2/index.html" />
+        <option value="$PROJECT_DIR$/CommonJS/README.md" />
+        <option value="$PROJECT_DIR$/CommonJS/demo1/index.html" />
+        <option value="$PROJECT_DIR$/MVC&amp;&amp;MVVM/index.html" />
+        <option value="$PROJECT_DIR$/koa/demo/mysql/index.js" />
+        <option value="$PROJECT_DIR$/CommonJS/demo3/index.html" />
+        <option value="$PROJECT_DIR$/es6/async/index.html" />
+        <option value="$PROJECT_DIR$/koa/demo/project/init/util/get-sql-map.js" />
+        <option value="$PROJECT_DIR$/koa/demo/project/init/util/get-sql-content-map.js" />
+        <option value="$PROJECT_DIR$/koa/demo/project/init/index.js" />
+        <option value="$PROJECT_DIR$/swiper-react/src/App.js" />
+        <option value="$PROJECT_DIR$/demo/TCaptcha.js" />
+        <option value="$PROJECT_DIR$/判断IE版本前端方法/README.md" />
+        <option value="$PROJECT_DIR$/IE/demo2.html" />
+        <option value="$PROJECT_DIR$/demo/demo.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/egg/demo1/egg-example/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/cookie/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/ejs/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/jsonp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/mysql/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/request/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/route-simple/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/route-use-middleware/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/session/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/start-async/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/start-quick/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/static-server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/static-use-middleware/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/test-unit/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/upload-async/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo/upload/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/koa/demo2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/mysql/demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/swiper-react/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/lesson1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/webpack/lesson2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/weixin/taro-dva/node_modules" />
+    <handled-path value="$PROJECT_DIR$/weixin/taro-zhihu-sample-master/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/egg/demo1/egg-example/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/cookie/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/ejs/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/esm/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/jsonp-use-middleware/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/jsonp/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/mysql/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/project/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/request/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/route-simple/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/route-use-middleware/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/session/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/start-async/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/start-quick/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/static-server/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/static-use-middleware/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/test-unit/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/upload-async/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo/upload/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo1/package.json" />
+      <path value="$PROJECT_DIR$/koa/demo2/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/@babel/helper-module-imports/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/@babel/types/node_modules/to-fast-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/acorn-dynamic-import/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/acorn-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/add-dom-event-listener/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/alphanum-sort/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-align/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-align/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-align/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-align/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/antd/node_modules/shallowequal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/antd/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/any-promise/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/array-find-index/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/array-tree-filter/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/asn1.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/assert/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/assert/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/assert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ast-types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/async-foreach/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/async-validator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-code-frame/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-core/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-generator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-bindify-decorators/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-builder-react-jsx/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-call-delegate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-define-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-explode-assignable-expression/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-explode-class/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-hoist-variables/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-optimise-call-expression/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-remap-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helper-replace-supers/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-helpers/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-messages/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-check-es2015-constants/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-import/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-async-functions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-async-generators/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-class-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-decorators/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-exponentiation-operator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-flow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-jsx/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-syntax-trailing-function-commas/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-async-generator-functions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-class-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-decorators/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-classes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-literals/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-modules-amd/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-modules-umd/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-spread/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-exponentiation-operator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-flow-strip-types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-react-display-name/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-react-jsx-self/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-react-jsx-source/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-react-jsx/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-regenerator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-runtime/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-plugin-transform-strict-mode/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-preset-es2015/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-preset-flow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-preset-react/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-preset-stage-2/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-preset-stage-3/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-register/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-template/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-traverse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babel-types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/babylon/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/base62/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/big.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/bignumber.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/bn.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/boxen/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/brorand/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-aes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-cipher/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-des/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-rsa/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-sign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserify-zlib/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/buffer-xor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/buffer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/builtin-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/busboy/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/busboy/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/busboy/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/busboy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cache-content-type/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/camelcase-keys/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/can-use-dom/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/caniuse-api/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/caniuse-db/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/capture-stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ci-info/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cipher-base/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/clap/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/classnames/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cli-boxes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/co-body/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/co-body/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/co-mysql/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/coa/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/color-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/color/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/color/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/colormin/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/commondir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/commoner/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/commoner/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/component-classes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/component-indexof/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/configstore/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/consolidate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/constants-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cookies/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/create-ecdh/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/create-error-class/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/create-hash/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/create-hmac/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/create-react-class/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/crypto-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/crypto-random-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/css-animation/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/css-color-names/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/css-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/css-selector-tokenizer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cssesc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/cssnano/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/csso/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/currently-unhandled/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/date-now/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/defined/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/des.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/detect-indent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/detective/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dicer/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dicer/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dicer/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dicer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/diffie-hellman/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dom-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dom-closest/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dom-matches/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dom-scroll-into-view/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/domain-browser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/dot-prop/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/draft-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/duplexer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/duplexer3/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/electron-to-chromium/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/elliptic/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/emojis-list/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/enhanced-resolve/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/enquire.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/error-inject/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/esprima-fb/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/event-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/eventlistener/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/events/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/evp_bytestokey/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/execa/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extract-text-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fastparse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fbjs/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fbjs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/find-cache-dir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/flatten/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/from/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/glob-parent/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/global-dirs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hammerjs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hash-base/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hash.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hmac-drbg/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hoist-non-react-statics/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/home-or-tmp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/html-comment-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/http-assert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/https-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/humanize-number/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/icss-replace-symbols/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ignore-by-default/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/immutable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/import-lazy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/in-publish/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/in-publish/test/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/indexes-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/inflation/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/interpret/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/invariant/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-absolute-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-ci/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-generator-function/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-installed-globally/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-npm/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-obj/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-path-inside/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-redirect/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-retry-allowed/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-svg/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/js-base64/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/js-yaml/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json2mq/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsonify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jstransform/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jstransform/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jstransform/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsx-loader/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/jsx-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/keygrip/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-bodyparser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-compose/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-convert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-is-json/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-logger/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-mysql-session/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-mysql-session/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-router/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-router/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-router/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-send/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-session-minimal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-static/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-static/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa-views/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa/node_modules/koa-compose/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/koa/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/latest-version/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/less-loader/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/less-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/less/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/loader-runner/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/locate-path/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash._getnative/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.assign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.camelcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.clonedeep/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.debounce/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.get/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.isarguments/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.isarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.memoize/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.mergewith/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.throttle/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.uniq/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash.uniqby/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/loud-rejection/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lowercase-keys/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lru-cache/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/make-dir/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/map-obj/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/map-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/math-expression-evaluator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/md5.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/meow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/micromatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/micromatch/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/micromatch/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/micromatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/miller-rabin/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/minimalistic-assert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/minimalistic-crypto-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/moment/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mysql/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/mz/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nanomatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nanomatch/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nanomatch/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nanomatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/neo-async/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-gyp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-libs-browser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-sass/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-sass/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-sass/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/node-sass/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nodemon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nodemon/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/normalize-range/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/normalize-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/num2fraction/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/omit.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/only/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/os-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/package-json/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pako/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/parse-asn1/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/passthrough-counter/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-dirname/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-to-regexp/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pause-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pbkdf2/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pkg-dir/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pkg-dir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-calc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-colormin/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-convert-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-discard-comments/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-discard-duplicates/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-discard-empty/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-discard-overridden/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-discard-unused/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-filter-plugins/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-merge-idents/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-merge-longhand/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-merge-rules/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-message-helpers/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-minify-font-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-minify-gradients/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-minify-params/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-minify-selectors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-extract-imports/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-extract-imports/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-extract-imports/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-extract-imports/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-extract-imports/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-local-by-default/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-local-by-default/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-local-by-default/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-local-by-default/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-local-by-default/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-scope/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-scope/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-scope/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-scope/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-scope/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-values/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-values/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-values/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-values/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-modules-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-normalize-charset/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-normalize-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-ordered-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-reduce-idents/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-reduce-initial/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-reduce-transforms/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-selector-parser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-svgo/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-unique-selectors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-value-parser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss-zindex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/private/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/process/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/prop-types/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ps-tree/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/pstree.remy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/public-encrypt/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/query-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/querystring-es3/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/querystring/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/random-bytes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/randombytes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/randomfill/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/raw-body/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/raw-body/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-animate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-calendar/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-cascader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-checkbox/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-collapse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-dialog/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-dropdown/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-editor-core/node_modules/immutable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-editor-core/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-editor-mention/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-form/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-hammerjs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-input-number/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-menu/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-notification/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-pagination/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-progress/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-rate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-select/node_modules/rc-menu/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-select/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-slider/node_modules/rc-tooltip/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-slider/node_modules/rc-trigger/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-slider/node_modules/shallowequal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-slider/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-steps/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-switch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-table/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-tabs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-time-picker/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-tooltip/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-touchable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-tree-select/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-tree/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-trigger/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-upload/node_modules/warning/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-upload/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc-util/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/react-lazy-load/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/react-slick/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/react/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/readdirp/examples/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/recast/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/redent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/reduce-css-calc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/reduce-function-call/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regenerate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regenerator-transform/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regex-not/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regex-not/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/registry-auth-token/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/registry-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regjsparser/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/regjsparser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/repeating/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/resolve-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ripemd160/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sass-graph/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sass-graph/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sass-graph/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sass-loader/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sass-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/schema-utils/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/scss-tokenizer/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/scss-tokenizer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/semver-diff/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/set-immediate-shim/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sha.js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/shallow-equal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/shallowequal/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/slash/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/slick-carousel/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/spdx-exceptions/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/split-string/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/split-string/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/split/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sqlstring/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stdout-stream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stream-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stream-combiner/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stream-http/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stream-http/test/browser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/streamsearch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strict-uri-encode/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/string-convert/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/style-loader/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/svgo/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/term-size/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/thenify-all/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/thenify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/timed-out/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/timers-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-fast-properties/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-regex/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-regex/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-regex/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/toidentifier/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/touch/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/touch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/trim-right/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/true-case-path/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tty-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ua-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uglify-js/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uglify-js/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uglify-js/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uid-safe/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/undefsafe/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uniq/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uniqs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unique-string/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/unzip-response/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/upath/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/update-notifier/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/update-notifier/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/update-notifier/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/urijs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/url/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/url/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/validator/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/vendors/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/vm-browserify/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/warning/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/watchpack/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack-merge/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack-sources/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack-sources/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack-sources/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/webpack/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/whet.extend/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wide-align/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wide-align/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wide-align/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wide-align/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/widest-line/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/widest-line/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/widest-line/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/widest-line/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/widest-line/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/write-file-atomic/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/xdg-basedir/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/koa/firstProject/node_modules/ylru/package.json" />
+      <path value="$PROJECT_DIR$/mysql/demo/package.json" />
+      <path value="$PROJECT_DIR$/node/demo/package.json" />
+      <path value="$PROJECT_DIR$/swiper-react/package.json" />
+      <path value="$PROJECT_DIR$/swiper/package.json" />
+      <path value="$PROJECT_DIR$/webpack/lesson1/package.json" />
+      <path value="$PROJECT_DIR$/webpack/lesson2/package.json" />
+      <path value="$PROJECT_DIR$/weixin/taro-dva/package.json" />
+      <path value="$PROJECT_DIR$/weixin/taro-zhihu-sample-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="228" />
+    <option name="y" value="87" />
+    <option name="width" value="1440" />
+    <option name="height" value="861" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="E:/myProject/www/veryeast/vip_veryeast_cn" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Test\learn\demo\upIMG" />
+      <recent name="E:\Test\learn\demo\share\share\frame" />
+      <recent name="E:\Test\learn\demo\share\share\b\styles" />
+      <recent name="E:\Test\learn\demo\share\share\b\engines" />
+      <recent name="E:\Test\learn\demo\share\share\b\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Test\learn\判断IE版本前端方法" />
+      <recent name="E:\Test\learn\demo" />
+      <recent name="E:\Test\learn\CommonJS" />
+      <recent name="E:\Test\learn\swiper-react" />
+      <recent name="E:\Test\learn\swiper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31880270-0133-4ae0-81d6-249b49ecfc4c" name="Default" comment="" />
+      <created>1533094405768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533094405768</updated>
+      <workItem from="1533094406875" duration="5020000" />
+      <workItem from="1533180462551" duration="1706000" />
+      <workItem from="1533183044650" duration="131000" />
+      <workItem from="1533188327616" duration="6820000" />
+      <workItem from="1533290187960" duration="723000" />
+      <workItem from="1533708555310" duration="269000" />
+      <workItem from="1533783486033" duration="652000" />
+      <workItem from="1533786187172" duration="1415000" />
+      <workItem from="1533890347851" duration="705000" />
+      <workItem from="1533899038530" duration="1391000" />
+      <workItem from="1534130821796" duration="2082000" />
+      <workItem from="1534153315082" duration="4751000" />
+      <workItem from="1534208231330" duration="5340000" />
+      <workItem from="1534225305262" duration="12844000" />
+      <workItem from="1534298740358" duration="3892000" />
+      <workItem from="1534323056957" duration="1246000" />
+      <workItem from="1534407820573" duration="1387000" />
+      <workItem from="1534428302125" duration="1319000" />
+      <workItem from="1534446118292" duration="592000" />
+      <workItem from="1534487733413" duration="56000" />
+      <workItem from="1534734004005" duration="2674000" />
+      <workItem from="1534744618762" duration="1000" />
+      <workItem from="1534745002968" duration="2024000" />
+      <workItem from="1534753421497" duration="5980000" />
+      <workItem from="1534814768034" duration="5206000" />
+      <workItem from="1534837710733" duration="736000" />
+      <workItem from="1534839549076" duration="13000" />
+      <workItem from="1534839969455" duration="1969000" />
+      <workItem from="1534844578619" duration="3235000" />
+      <workItem from="1534906460571" duration="21000" />
+      <workItem from="1534927764689" duration="53000" />
+      <workItem from="1534933672124" duration="819000" />
+      <workItem from="1534983782562" duration="1011000" />
+      <workItem from="1535005151969" duration="1915000" />
+      <workItem from="1535010758833" duration="604000" />
+      <workItem from="1535017707786" duration="4351000" />
+      <workItem from="1535080469167" duration="10000" />
+      <workItem from="1535090126201" duration="31000" />
+      <workItem from="1535099826853" duration="4995000" />
+      <workItem from="1535348142220" duration="14760000" />
+      <workItem from="1535416656851" duration="24757000" />
+      <workItem from="1535502622058" duration="11395000" />
+      <workItem from="1535552071570" duration="2303000" />
+      <workItem from="1535695051259" duration="2771000" />
+      <workItem from="1535699717225" duration="9553000" />
+      <workItem from="1535936234954" duration="3000" />
+      <workItem from="1535959555030" duration="8000" />
+      <workItem from="1536028852732" duration="1464000" />
+      <workItem from="1536033475799" duration="2462000" />
+      <workItem from="1536108302303" duration="19521000" />
+      <workItem from="1536142459349" duration="1030000" />
+      <workItem from="1536194570625" duration="638000" />
+      <workItem from="1536220560683" duration="2714000" />
+      <workItem from="1536311801571" duration="18000" />
+      <workItem from="1536311867336" duration="675000" />
+      <workItem from="1536315124976" duration="114000" />
+      <workItem from="1536315438032" duration="511000" />
+      <workItem from="1536544793976" duration="1304000" />
+      <workItem from="1536570843862" duration="3010000" />
+      <workItem from="1536630485807" duration="10491000" />
+      <workItem from="1536678889775" duration="10000" />
+      <workItem from="1536722872191" duration="13317000" />
+      <workItem from="1536799449629" duration="610000" />
+      <workItem from="1536807212835" duration="1178000" />
+      <workItem from="1536817252924" duration="1307000" />
+      <workItem from="1536824028762" duration="6201000" />
+      <workItem from="1536885815815" duration="1747000" />
+      <workItem from="1536890874563" duration="8992000" />
+      <workItem from="1536916677512" duration="3383000" />
+      <workItem from="1537146548233" duration="1643000" />
+      <workItem from="1537174156918" duration="697000" />
+      <workItem from="1537231941499" duration="1102000" />
+      <workItem from="1537356737095" duration="933000" />
+      <workItem from="1537407520794" duration="725000" />
+      <workItem from="1537431221084" duration="104000" />
+      <workItem from="1537501768514" duration="9810000" />
+      <workItem from="1537518875656" duration="3629000" />
+      <workItem from="1537835160903" duration="21177000" />
+      <workItem from="1537946758775" duration="2418000" />
+      <workItem from="1538008786149" duration="5073000" />
+      <workItem from="1538094705778" duration="2957000" />
+      <workItem from="1538118098508" duration="1028000" />
+      <workItem from="1538124351412" duration="1929000" />
+      <workItem from="1540430538514" duration="7024000" />
+      <workItem from="1540445277441" duration="838000" />
+      <workItem from="1540446302073" duration="2711000" />
+      <workItem from="1541035012255" duration="801000" />
+      <workItem from="1541042623639" duration="603000" />
+      <workItem from="1541054384904" duration="601000" />
+      <workItem from="1541577565969" duration="722000" />
+      <workItem from="1542028511372" duration="609000" />
+      <workItem from="1542770815970" duration="92000" />
+      <workItem from="1543289525077" duration="266000" />
+      <workItem from="1543828152960" duration="844000" />
+      <workItem from="1543829429574" duration="2371000" />
+      <workItem from="1543917215274" duration="1208000" />
+      <workItem from="1544584316255" duration="285000" />
+      <workItem from="1544670800576" duration="616000" />
+      <workItem from="1544672541788" duration="652000" />
+      <workItem from="1544681386500" duration="6237000" />
+      <workItem from="1544688734097" duration="928000" />
+      <workItem from="1544700305542" duration="685000" />
+      <workItem from="1545048092513" duration="695000" />
+      <workItem from="1545270954689" duration="691000" />
+      <workItem from="1545272441189" duration="679000" />
+      <workItem from="1545372291336" duration="23000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1533094443789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533094443789</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1534298795978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534298795980</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second">
+      <created>1534847998400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534847998400</updated>
+    </task>
+    <task id="LOCAL-00004" summary="second">
+      <created>1534934468435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534934468435</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3">
+      <created>1535108037832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535108037832</updated>
+    </task>
+    <task id="LOCAL-00006" summary="koa">
+      <created>1535365725649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535365725649</updated>
+    </task>
+    <task id="LOCAL-00007" summary="koa">
+      <created>1536315503021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536315503021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="koa">
+      <created>1536666978934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536666978934</updated>
+    </task>
+    <task id="LOCAL-00009" summary="koa">
+      <created>1536747663393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536747663393</updated>
+    </task>
+    <task id="LOCAL-00010" summary="koa">
+      <created>1536916698286</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536916698286</updated>
+    </task>
+    <task id="LOCAL-00011" summary="swiper">
+      <created>1536919236737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536919236737</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新">
+      <created>1537518276856</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537518276856</updated>
+    </task>
+    <task id="LOCAL-00013" summary="分享内容">
+      <created>1537525118916</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1537525118917</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新">
+      <created>1537875795357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1537875795357</updated>
+    </task>
+    <task id="LOCAL-00015" summary="分享">
+      <created>1537953985183</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1537953985183</updated>
+    </task>
+    <task id="LOCAL-00016" summary="分享：node、commjs">
+      <created>1541577921951</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541577921951</updated>
+    </task>
+    <task id="LOCAL-00017" summary="webpack">
+      <created>1541577955412</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541577955412</updated>
+    </task>
+    <task id="LOCAL-00018" summary="koa">
+      <created>1541577975011</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541577975011</updated>
+    </task>
+    <task id="LOCAL-00019" summary="webpack">
+      <created>1541578160894</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1541578160894</updated>
+    </task>
+    <task id="LOCAL-00020" summary="webpack">
+      <created>1542770849863</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542770849864</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="317642000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="228" y="87" width="1440" height="861" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891776" visible="true" weight="0.20114122" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.50108224" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35675675" />
+      <window_info id="Favorites" order="2" sideWeight="0.50108224" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30627707" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="second" />
+    <MESSAGE value="3" />
+    <MESSAGE value="swiper" />
+    <MESSAGE value="分享内容" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="分享" />
+    <MESSAGE value="分享：node、commjs" />
+    <MESSAGE value="koa" />
+    <MESSAGE value="webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/es6/class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/async/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/start-quick/node_modules/koa/lib/context.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/start-quick/node_modules/koa/lib/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12999" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/start-quick/node_modules/koa/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9446">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/start-quick/node_modules/koa/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/sql/user_info.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/util/walk-file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/util/get-sql-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/util/get-sql-content-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/util/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/views/admin.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/routers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/routers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/codes/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/routers/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/routers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/utils/type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/utils/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/services/user-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/models/user-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/utils/db-util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/init/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/controllers/work.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/project/server/controllers/user-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H1V1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H1V2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H1V3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H2V1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H2V2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H2V3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H2V4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H4V1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H4V2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H3V1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/modal/H3V2.js" />
+    <entry file="file://$PROJECT_DIR$/swiper-react/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/demo/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react跳转集合/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/demo/start-quick/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/TCaptcha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

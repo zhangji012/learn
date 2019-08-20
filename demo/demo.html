@@ -4,23 +4,31 @@
   <meta charset="UTF-8">
   <title>demo</title>
   <style>
-    .save {
-      display: inline-block;
-      padding: 20px;
-    }
+
   </style>
 </head>
 <body>
-<button id="TencentCaptcha"
-        data-appid="2096087700"
-        data-cbfn="callback"
->验证</button>
 
-  <script src="./jquery-3.3.1.min.js"></script>
-  <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+
+<!-- <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script> -->
 <script>
-  var captcha1 = new TencentCaptcha('2096087700', function(res) {/* callback */});
-  captcha1.show(); // 显示验证码
+  debugger
+function* gen(x){
+  try {
+    var y = yield x + 2;
+  } catch (e){ 
+    console.log(e);
+  }
+  return y;
+}
+
+var g = gen(1);
+g.next();
+g.throw('出错了111');
+// 出错了
+
+
+
 </script>
 </body>
 </html>
