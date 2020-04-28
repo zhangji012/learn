@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>input中文输入时会在输入完之后再执行代码</title>
+  <link rel="manifest" href="index.less"/>
+</head>
+<body>
+  <div>
+    <ul id="URL_PAR_KEY_UL">
+      <li class="URL_PAR_KEY_LI">
+        <input class="inputid" /> <span class="spacnclick">必填</span>
+      </li>
+      <li class="URL_PAR_KEY_LI">
+        <input class="inputid" /> <span class="spacnclick">必填</span>
+      </li>
+    </ul>
+  </div>
+
+<script src="./jquery-3.3.1.min.js"></script>
+<script>
+  $(function(){
+    $(document).on("input",".inputid",function(e){
+      console.log($(this).val())
+      var len = $(".URL_PAR_KEY_LI").length
+      var index = $(this).parent().index()
+      console.log(len, index);
+      if ((len - index) === 1) {
+        var li = "<li class='URL_PAR_KEY_LI'> <input class='inputid' /> <span class='spacnclick'>必填</span> </li>"
+        $('#URL_PAR_KEY_UL').append(li)
+      }
+    })
+
+    $(document).on("click",".spacnclick",function(){
+      var len = $(".URL_PAR_KEY_LI").length
+      var index = $(this).parent().index()
+      console.log(len, index)
+      if (len > 1) {
+        $("#URL_PAR_KEY_UL").find("li")[index].remove()
+      }
+    })
+  });
+
+
+
+</script>
+</body>
+</html>

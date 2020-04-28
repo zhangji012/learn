@@ -3,67 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" href="./upIMG/test.css" />
 
+  <style>
+
+  </style>
 </head>
 <body>
-<input style="width: 100%;height: 30px;" id="dev_region_search"/>
-<div class="drop_down_box">
-  <ul></ul>
+
+<div class="box">
+
 </div>
 
 <script src="jquery-3.3.1.min.js"></script>
 <script>
-  $(function(){
-    var flag = true;
-    $('#dev_region_search').on('compositionstart',function(){
-      flag = false;
-    });
-    $('#dev_region_search').on('compositionend',function(){
-      flag = true;
-    });
-    $('#dev_region_search').on('input',function(e){
-      setTimeout(function(){
-        if(flag){
-          console.log(e.delegateTarget.value);
-          var val = e.delegateTarget.value;
-          getAjax(val);
-        }
-      },0);
-    });
+  function Foo(name,age){
+    this.name=name;
+    this.age=age;
+    return {name:"Jeff"}
+  }
+  var foo=new Foo("Tom",14);
+  console.log(foo.name)
+  // foo.name;//Jeff
+</script>
+<script>
 
-    function getAjax(val) {
-      $.ajax({
-        url: url,
-        dataType: 'json',
-        method: 'GET',
-        success: function (data) {
 
-        },
-        error: function (xhr) {
-
-        }
-      });
-    }
-
-    var data = [
-      'fdafda',
-      '打发打发第三方的',
-      '冠福股份',
-      '发发',
-      '辅导费',
-      '刚刚',
-    ]
-    function searchRegion(data) {
-      var result
-      data.forEach(function (item, index) {
-        console.log(item)
-        result += '<li class="box_li">'+item+'</li>'
-      })
-      $('.drop_down_box ul').append(result)
-    }
-    searchRegion(data)
-  });
 
 </script>
 </body>

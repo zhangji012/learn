@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
-  <meta charset="UTF-8">
-  <title>demo</title>
-  <style>
-
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
+<div id="root3">
+  <h3>Watch 用法3：deep + handler</h3>
+  <input v-model="deepMessage.a.b">
+  <span>{{copyMessage}}</span>
+</div>
 
-
-<!-- <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script> -->
+<!--<script src="//f3.v.veimg.cn/my_veryeast_cn_ued/static/base/template.js"></script>-->
+<!--<script src="http://f3.v.veimg.cn/vip_veryeast_cn_ued/js/plugins/art-template/art-template.js?v=20180427"></script>-->
+<!-- <script src="//f3.v.veimg.cn/www_veryeast_cn/v2017/js/jquery-1.9.1.min.js"></script> -->
+<!--<script src="./jquery-3.3.1.min.js"></script>-->
 <script>
-  debugger
-function* gen(x){
-  try {
-    var y = yield x + 2;
-  } catch (e){ 
-    console.log(e);
-  }
-  return y;
-}
-
-var g = gen(1);
-g.next();
-g.throw('出错了111');
-// 出错了
-
-
-
+  new Vue({
+    el: '#root3',
+    watch: {
+      deepMessage: {
+        handler: 'handleDeepMessage',
+        deep: true
+      }
+    },
+    data() {
+      return {
+        deepMessage: {
+          a: {
+            b: 'Deep Message'
+          }
+        },
+        copyMessage: ''
+      }
+    },
+    methods: {
+      handleDeepMessage(value) {
+        this.copyMessage = value.a.b
+      }
+    }
+  })
 </script>
+
 </body>
 </html>
